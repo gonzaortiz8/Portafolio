@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="home__background"></div>
+    <section id="home"></section>
+    <nav class="navbar">
+            <a class="GO" href="#"> <strong class="apertura"> < </strong> GO  <strong class="cierre"> /> </strong> </a>
+            <ul class="navbar__links">
+                <li class="navbar__link"> <a href="#home"> Home </a> </li>
+                <li class="navbar__link"> <a href="#about"> About </a> </li>
+                <li class="navbar__link"> <a href="#skills"> Skills </a> </li>
+                <li class="navbar__link"> <a href="#contact"> Contact </a> </li>
+            </ul>
+    </nav>
+
+
+    
+    <section class="home">
+        <div class="container"> 
+            <img src="./imagenes/foto de perfil.jpg" alt="Profile Home" class="rounded-circle profile-picture">
+        </div>
+        <div class="home__description">
+            <span class="home__title--primary">Hola!</span>
+            <h1 class="home__title">Soy Gonzalo Ortiz</h1>
+            <span class="home__title--secondary">Desarrollador Web</span>
+        </div>
+    </section> 
+
+
+
+    <section class="about" id="about">
+        <h2 class="about__title">Sobre mi</h2>
+        <div class="about__grid">
+            <div class="about__description">
+                <h2 class="about__subtitle"> Soy Gonzalo Ortiz, estudiante de Desarrollo Web </h2> <br> <br>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ipsa autem alias id repellat tempora fugit vitae unde cupiditate quo. Error assumenda ea omnis cupiditate id aut, architecto voluptatem. Quo? </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit earum provident, repellendus iure ex inventore, culpa fugit, optio nam placeat doloribus illo vero consequatur repellat dicta quidem explicabo nesciunt.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt enim fugiat, illum consequatur inventore error distinctio labore facere voluptate, reprehenderit a. Cupiditate cum fuga harum ea libero, impedit corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ad reprehenderit nisi illo cumque neque a error, exercitationem inventore eligendi provident iure earum, praesentium aperiam consectetur assumenda voluptates. Facilis, inventore. lo
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum assumenda, incidunt aliquid labore harum, dignissimos sint eveniet sunt ad nisi, libero veniam at consequuntur ullam. Ipsa sed sint eveniet dolorum!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque earum molestiae voluptates culpa maiores quod excepturi quisquam provident nisi. Deserunt aperiam modi adipisci minus saepe amet facilis consequatur, qui quidem.
+                </p>
+                <img src="./imagenes/lupa.png" alt="Lupa" class="lupa">
+            </div>
+        </div>
+    </section>
+
+     <section class="skills" id="skills">
+        <h2 class="skills__title">Skills</h2>
+        <div class="skills__grid">
+            <i class="fa-brands fa-html5 icon" style="color: rgb(176, 176, 0);"> HTML5 </i>
+            <i class="fa-brands fa-css3 icon" style="color: #3367d6;"> CSS3 </i>
+            <i class="fa-brands fa-bootstrap icon" style="color: blueviolet;"> Bootstrap </i>
+            <i class="fa-solid fa-pen-ruler icon" style="color: green;"> Ceative Design </i>
+            <i class="fa-brands fa-git icon" style="color: orange;" > GIT </i>
+            <i class="fa-brands fa-github icon"> GitHub </i>
+        </div>
+    </section> 
+
+    <section class="contact" id="contact">
+        <div class="container">
+        <h2 class="form__title">Contactáme</h2>
+        <form action="" class="formulario">
+            <div class="form-group">
+                <label for="text">Nombre: </label>
+                <input type="text" class="form-control" id="text" placeholder="Nombre" name="email">
+            </div> <br>
+
+            <div class="form-group">
+                <label for="text">Apellido: </label>
+                <input type="text" class="form-control" id="text" placeholder="Apellido" name="text">
+            </div> <br>
+
+            <div class="form-group">
+                <label for="email">Tú email:</label> 
+                <input type="email" placeholder=" correo@gmail.com">
+            </div> <br>
+
+            <div class="form-group">
+                <textarea name="textarea" id="textarea" cols="80" rows="10" placeholder=" Deje su mensaje..."></textarea>
+            </div> <br>
+            <button type="submit" class="btn btn-dark color-button"> Enviar </button>
+        </div>    
+
+        <div class="contact__icon">
+            <a href="https://www.google.com/intl/es-419/gmail/about/" class="contact__icon-a" target="_blank"><i class="fa-solid fa-envelope gmail"></i></a>
+            <a href="https://github.com/gonzaortiz8/comision29230" class="contact__icon-a" target="_blank"><i class="fa-brands fa-github github"></i></a>
+            <a href="https://twitter.com/?logout=1651097400489" class="contact__icon-a" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a>
+            <a href="https://www.linkedin.com/home" class="contact__icon-a" target="_blank"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
+        </form>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
