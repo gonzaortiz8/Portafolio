@@ -92,8 +92,8 @@ list-style: none;
     position: relative;
     height: 250px;
     width: 250px;
-    top: 270px;
-    left: 265px;
+    top: 170px;
+    left: 365px;
     
 }
 
@@ -103,8 +103,8 @@ list-style: none;
     font-size: 60px;
     text-shadow: 1px 1px black;
     color: #3367d6;
-    left: 900px;
-    top: 120px;
+    left: 600px;
+    top: -10px;
 }
 .home__title--primary{
     font-size: 45px;
@@ -112,8 +112,8 @@ list-style: none;
     text-shadow: 1px 1px black;
     position: relative;
     display: inline;
-    left: 1200px;
-    top: 30px;
+    left: 900px;
+    top: -80px;
 }
 
 .home__title--secondary {
@@ -122,8 +122,8 @@ list-style: none;
     text-shadow: 1px 1px black;
     position: relative;
     display: inline;
-    left: 480px;
-    top: 200px;
+    left: 180px;
+    top: 60px;
 }
 
 .about{
@@ -137,7 +137,7 @@ list-style: none;
 .about__title{
     position: relative;
     display: inline;
-    left: 360px;
+    left: 160px;
     top: 150px;
     color: rgb(88, 88, 88);
     font-size: 35px;
@@ -161,7 +161,7 @@ list-style: none;
     position: relative;
     text-align: left;
     color: var(--grey);
-    left: 360px;
+    left: 160px;
     top: 200px;
     line-height: 40px;
 }
@@ -184,7 +184,7 @@ list-style: none;
 
 .skills__title{
     display: inline;
-    left: 360px;
+    left: 160px;
     top: 80px;
     position: relative;
     color: rgb(88, 88, 88);
@@ -200,7 +200,7 @@ list-style: none;
     position: relative;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
-    left: 360px;
+    left: 160px;
     top: 200px;
     width: 800px;
     font-size: 30px;
@@ -218,14 +218,14 @@ list-style: none;
 .form__title{
     position: relative;
     top: 80px;
-    left: 360px;
+    left: 160px;
     color: #3367d6;
 }
 
 .formulario{
     position: relative;
     top: 100px;
-    left: 360px;
+    left: 160px;
 }
 
 .contact__icon{
@@ -234,7 +234,7 @@ list-style: none;
     column-gap: 100px;
     position: relative;
     top: 200px;
-    left: 360px;
+    left: 160px;
     font-size: 50px;
     width: fit-content;
 }
